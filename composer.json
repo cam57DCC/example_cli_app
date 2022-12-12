@@ -1,0 +1,20 @@
+{
+  "name": "cam57dcc/example_cli_app",
+  "description": "Example of using cli framework",
+  "type": "project",
+  "require": {
+    "php": ">=7.4.0",
+    "cli/project-test": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/cam57DCC/cli_framework.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
